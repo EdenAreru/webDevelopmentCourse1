@@ -1,0 +1,79 @@
+body {
+    direction: rtl;
+    
+}
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url('../images/flowers_orange.jpg');
+    background-size: 1000px;
+}
+header {
+    font-family: 'Secular One', sans-serif;
+    font-size: 50pt;
+    position: center;
+    color: chartreuse;
+    text-shadow: 1px 1px 1px black;
+    -webkit-transition: color 2s ease;
+    -moz-transition: color 2s ease;
+    -ms-transition: color 2s ease;
+    -o-transition: color 2s ease;
+    transition: color 2s ease;
+}
+    header:hover
+
+{
+    font-family: 'Secular One', sans-serif;
+    font-size: 50pt;
+    position: center;
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+}
+h1 {
+    margin: 15px;
+    color: crimson;
+    font-size: 14pt;
+    font-family: 'Secular One', sans-serif;
+}
+
+p{
+    margin: 15px;
+}
+
+#intrests li {
+    
+    list-style-image: url('../images/list.JPG');
+    list-style-position:inside;
+    position:center;
+}
+#intrests li:hover {
+    list-style-image: url('../images/listhover.JPG');
+    list-style-position: inside;
+    position: center;
+}
+
+#intrests{
+margin-right: 20px;
+
+}
+
+#email {
+    width: 39px;
+    height: 38px;
+    background-image: url('../images/email.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    display: inline-block;
+    margin: 3px;
+    padding-right: 10px;
+}
+#facebook {
+    width: 40px;
+    height: 43px;
+    background-image: url('../images/facebook.png');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    display: inline-block;
+    margin: 3px;
+}
